@@ -1,0 +1,29 @@
+.inputs input,
+.inputs input:focus,
+.inputs textarea {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 1.5rem;
+  resize: none;
+}
+
+.Contact button {
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.inputs .inputWrap {
+  position: relative;
+}
+
+.inputs .inputWrap::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #2c3e50;
+}

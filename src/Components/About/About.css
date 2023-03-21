@@ -1,0 +1,8 @@
+.About {
+  background-color: #1abc9c;
+}
+
+.About .about-content div p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
