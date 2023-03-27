@@ -9,11 +9,12 @@ import MainComponent from './Components/MainComponent/MainComponent';
 const Router = createBrowserRouter([
   {
     path: '/', element: <MainComponent />, children: [
-      { path: 'home', element: <Home /> },
       { path: '/', element: <Home /> },
+      { path: 'home', element: <Home /> },
       { path: 'portfolio', element: <Portfolio /> },
       { path: 'about', element: <About /> },
-      { path: 'contact', element: <Contact /> }
+      { path: 'contact', element: <Contact /> },
+      { path: '*', element: <Home /> }
     ]
   }
 
